@@ -503,7 +503,7 @@ position: relative;
 
 .about-item {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 2fr;
   gap: 4rem;
   align-items: center;
 }
@@ -517,6 +517,7 @@ position: relative;
 }
 
 .about-text {
+  text-align: left;
   animation: slideInLeft 0.8s ease;
 }
 
